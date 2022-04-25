@@ -1,26 +1,12 @@
-<!DOCTYPE html PUBLIC "-// W3C// DTD HTML 4.01
- Transitional// EN" "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
-    <head>
-    <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-             pageEncoding="ISO-8859-1" isELIgnored="false" %>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-
-    <title>Fantabulous University</title>
-
-    </head>
-
 <body>
+    <form action="calculate">
 
-    <h1>Fantabulous University Student Pages</h1>
+    Number 1 : <input type="text" name="number1"/> <br><br>
+    Number 2 : <input type="text" name="number2"/> <br><br>
 
-    <a href="university/students">View Students</a><p></p>
-    <a href="university/professors">View Professors</a><p></p>
+    <input type="submit" name="submit">
 
-    <a href="students/Nora">Nora</a><p></p>
-    <a href="students/Paul">Paul</a><p></p>
-
+    </form>
 </body>
 </html>
